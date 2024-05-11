@@ -1,0 +1,209 @@
+body
+{
+text-align: center;
+margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #40514E;
+  background-color:bisque;
+}
+h1
+{
+    line-height: 1;
+    margin:50px auto 0 auto;
+        font-family: "Sacramento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 300%;
+        color: #66BFBF;
+      /* px is not dynamic so % or em is used 16px=100%=1em 
+      This dynamic font size can cause problem as they can get added if two sizes are declared in body and other classes so rem is used it is the modified dynamic unit it it doesn't have the same problem*/  
+      
+      /* width:10%; //align does't work so use margin */ 
+    /* margin: 0 auto; //topbottom:0, leftright:auto */
+}
+
+h2
+{  
+    color: #66BFBF;
+      padding-bottom: 10px;
+        font-family: "Comic Neue", cursive;
+         font-weight: normal;
+        font-style: italic;
+ }
+
+h3
+{  
+    color: #11999E;
+      
+        font-family: "Comic Neue", cursive;
+        font-weight: 700;
+        font-style: italic;
+      }
+p
+{
+    line-height: 2;
+}
+hr
+{
+    border: dashed cadetblue;
+    border-bottom: 0;
+    width:50%;
+    margin: 100px auto;
+}
+a{
+    color: #ddec05;
+    font-family: "Comic Neue", cursive;
+    margin: 10px 20px; 
+    text-decoration: none;
+}
+a:hover
+{
+    color: #E4F9F5;
+}
+.pro
+{
+    text-decoration:underline aquamarine;
+}
+.top
+{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.cloud-top
+{
+position: absolute;
+right: 300px;
+top: 50px;
+}
+
+.cloud-bot
+{
+    position: absolute;
+    left:250px;
+    bottom: 300px;
+
+}
+
+/* .mountain{} */
+.Profile
+{
+    border-radius: 10%;
+    width:15rem;
+    height:15rem;
+    border:1px;
+    border-style:ridge;
+    border-color: aqua;
+}
+.intro
+{
+    width:25%;
+    margin:auto;
+}
+.mid
+{
+
+    margin: 100px 0;
+}
+.skill-row
+{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    position: relative;
+}
+.code-img
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.kaneki
+{
+    width:25%;
+    float: left;
+    border-radius: 50%;
+    padding: 20px; 
+    margin-top: -5%;
+    margin-right: 30px;
+}
+.bleach
+{
+    position: absolute;
+    width:10rem;
+    height: 10rem;
+    float: right;
+    padding: 20px; 
+    margin-top: -5%;
+    margin-left: 60%;
+    border-radius: 100%;
+
+}
+.itachi
+{
+    position: absolute;
+    width:10rem;
+    height: 10rem;
+    padding: 20px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 16%;
+    margin-left: 9%;
+}
+.contact-message
+{
+    width:40%;
+    margin: 40px auto 40px;
+}
+
+.contact-me
+{
+    margin-top:10%;
+}
+.copyright
+{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2bb86d);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2bb86d);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2bb86d);
+    background-image: -o-linear-gradient(top, #11cdd4, #2bb86d);
+    background-image: linear-gradient(to bottom, #11cdd4, #2bb86d);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Comic Neue',cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -moz-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -ms-linear-gradient(top, #30e3cb, #3498db);
+    background-image: -o-linear-gradient(top, #30e3cb, #3498db);
+    background-image: linear-gradient(to bottom, #30e3cb, #3498db);
+    text-decoration: none;
+  }
+
+  .bottom
+  {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  }
+
+
+
+
+
+
