@@ -127,8 +127,8 @@ top: 50px;
     float: left;
     border-radius: 50%;
     padding: 20px; 
-    margin-top: -5%;
-    margin-right: 30px;
+    margin-top: 7.7%;
+    margin-right: -116px;
 }
 .bleach
 {
@@ -137,21 +137,21 @@ top: 50px;
     height: 10rem;
     float: right;
     padding: 20px; 
-    margin-top: -5%;
-    margin-left: 60%;
+    margin-top: 22%;
+    margin-left: 103%;
     border-radius: 100%;
 
 }
 .itachi
 {
     position: absolute;
-    width:10rem;
+    width:  10rem;
     height: 10rem;
     padding: 20px;
     float: left;
     border-radius: 50%;
-    margin-top: 16%;
-    margin-left: 9%;
+    margin-top: 24%;
+    margin-left: -33%;
 }
 .contact-message
 {
